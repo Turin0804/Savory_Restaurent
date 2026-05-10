@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savora - Mediterranean Cuisine</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@600&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg pt-4 pb-3">
+        <div class="container">
+            <a class="navbar-brand font-serif fw-bold" href="#">Savora</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Book a Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Chefs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Events</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-2 fw-medium">Book a Table</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <!-- Left Text Content -->
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h1 class="hero-title font-serif mb-4" style="width: 130%; position: relative; z-index: 10;">
+                        Savor Authentic<br>Mediterranean<br>Cuisine
+                    </h1>
+                    <p class="hero-text mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Experience the rich flavors of traditional Mediterranean cooking
+                        in an elegant atmosphere.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mt-5">
+                        <a href="#" class="btn btn-primary rounded-pill px-5 py-3 fw-bold text-uppercase shadow-sm"
+                            style="letter-spacing: 1px; font-size: 0.9rem;">Book a Table</a>
+                        <a href="#"
+                            class="btn btn-outline-primary rounded-pill px-5 py-3 fw-bold text-uppercase bg-white shadow-sm"
+                            style="letter-spacing: 1px; font-size: 0.9rem;">View Menu</a>
+                    </div>
+
+                    <!-- Hero Info Bar -->
+                    <div class="d-flex flex-wrap gap-5 mt-5 pt-2">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="bi bi-clock text-primary fs-4"></i>
+                            <div>
+                                <p class="text-muted mb-0 small text-uppercase fw-bold" style="letter-spacing: 1.5px; font-size: 0.75rem;">Open Daily</p>
+                                <p class="text-dark mb-0 fw-bold">11:00 AM - 10:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="bi bi-geo-alt text-primary fs-4"></i>
+                            <div>
+                                <p class="text-muted mb-0 small text-uppercase fw-bold" style="letter-spacing: 1.5px; font-size: 0.75rem;">Location</p>
+                                <p class="text-dark mb-0 fw-bold">Manhattan, NY</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Images Content -->
+                <div class="col-lg-6 position-relative hero-img-wrapper">
+                    <div class="main-img-box">
+                        <img src="assets/showcase-2.webp" alt="Restaurant Interior"
+                            class="img-fluid rounded-4 shadow-sm main-img">
+                    </div>
+
+                    <div class="floating-card top-right-card rounded-4 bg-white shadow-lg">
+                        <img src="assets/starter-3.webp" alt="Delicious Dish" class="img-fluid rounded-3">
+                    </div>
+
+                    <div class="floating-card bottom-left-card rounded-4 bg-white shadow-lg">
+                        <img src="assets/main-2.webp" alt="Appetizer" class="img-fluid rounded-3">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section class="chef-section py-5 my-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Image Content -->
+                <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+                    <img src="assets/chef-3.webp" alt="Executive Chef" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="height: 550px; object-fit: cover;">
+                    <div class="experience-badge bg-primary text-white text-center p-4 rounded-3 shadow-lg">
+                        <h2 class="fw-bold mb-2 fs-1">25+</h2>
+                        <p class="mb-0 fw-bold" style="font-size: 0.75rem; letter-spacing: 1px;">YEARS OF CULINARY
+                            EXCELLENCE</p>
+                    </div>
+                </div>
+
+                <!-- Right Text Content -->
+                <div class="col-lg-6 ps-lg-5">
+                    <h2 class="font-serif fw-bold mb-3" style="font-size: 2.8rem; color: #2b231d;">Meet Our Executive
+                        Chef</h2>
+                    <p class="text-primary fw-medium mb-4 fs-5">Crafting memorable dining experiences since 1999</p>
+
+                    <p class="text-muted mb-4 lh-lg">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p class="text-muted mb-5 lh-lg">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
+                    </p>
+
+                    <!-- Awards -->
+                    <div class="d-flex flex-wrap gap-5 mb-5">
+                        <div class="d-flex align-items-center gap-3 fw-semibold text-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-award text-primary" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.8l-1.352-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.2l1.352.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg>
+                            James Beard Award
+                        </div>
+                        <div class="d-flex align-items-center gap-3 fw-semibold text-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-star text-primary" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                            </svg>
+                            Michelin Recognition
+                        </div>
+                    </div>
+
+                    <!-- Quote -->
+                    <div class="quote-box p-4 rounded-3 mb-5 position-relative">
+                        <p class="fst-italic text-dark mb-3">
+                            "Cooking is not just about feeding people; it's about creating moments that bring families
+                            and friends together around the table."
+                        </p>
+                        <p class="fw-bold text-dark mb-0">- Chef Alessandro Romano</p>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-primary rounded-2 px-4 py-2 fw-medium">View Menu</a>
+                        <a href="#" class="btn btn-outline-primary rounded-2 px-4 py-2 fw-medium bg-white">Book a
+                            Table</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Menu Section -->
+    <section class="menu-section py-5 my-5">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="text-center mb-5 pb-3">
+                <h2 class="font-serif fw-bold mb-3" style="font-size: 2.8rem; color: #2b231d;">Menu</h2>
+                <div class="d-flex justify-content-center mb-4">
+                    <div style="width: 50px; height: 3px; background-color: var(--primary-color);"></div>
+                </div>
+                <p class="text-muted fs-6">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                    velit</p>
+            </div>
+
+            <!-- Menu Filters -->
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-5 pb-2">
+                <button
+                    class="btn btn-primary rounded-pill px-4 py-2 fw-medium d-flex align-items-center gap-2 border-0 shadow-sm">
+                    <i class="bi bi-egg-fried"></i> Starters
+                </button>
+                <button
+                    class="btn btn-outline-secondary text-dark rounded-pill px-4 py-2 fw-medium d-flex align-items-center gap-2 border-secondary-subtle bg-white">
+                    <i class="bi bi-cup-hot"></i> Main Courses
+                </button>
+                <button
+                    class="btn btn-outline-secondary text-dark rounded-pill px-4 py-2 fw-medium d-flex align-items-center gap-2 border-secondary-subtle bg-white">
+                    <i class="bi bi-cake2"></i> Desserts
+                </button>
+                <button
+                    class="btn btn-outline-secondary text-dark rounded-pill px-4 py-2 fw-medium d-flex align-items-center gap-2 border-secondary-subtle bg-white">
+                    <i class="bi bi-cup-straw"></i> Beverages
+                </button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="row g-4 mb-5">
+
+                <!-- Menu Item 1 -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden menu-card">
+                        <div class="position-relative">
+                            <img src="assets/starter-6.webp" class="card-img-top" alt="Crispy Calamari"
+                                style="height: 250px; object-fit: cover;">
+                            <span
+                                class="badge bg-primary position-absolute top-0 start-0 m-4 px-3 py-2 rounded-pill fs-6 fw-bold"
+                                style="letter-spacing: 0.5px;">CHEF'S PICK</span>
+                        </div>
+                        <div class="card-body p-4 p-lg-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="card-title font-serif fw-bold mb-0">Crispy Calamari Rings</h4>
+                                <div class="icon-circle bg-danger bg-opacity-10 text-danger rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 36px; height: 36px;">
+                                    <i class="bi bi-fire fs-5"></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted mb-4 fs-6 lh-lg">Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit sed do eiusmod tempor incididunt ut labore</p>
+                            <div class="text-end">
+                                <span class="fs-2 fw-bold text-primary">$18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden menu-card">
+                        <img src="assets/starter-3.webp" class="card-img-top" alt="Truffle Arancini"
+                            style="height: 250px; object-fit: cover;">
+                        <div class="card-body p-4 p-lg-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="card-title font-serif fw-bold mb-0">Truffle Arancini</h4>
+                                <div class="icon-circle bg-success bg-opacity-10 text-success rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 36px; height: 36px;">
+                                    <i class="bi bi-leaf fs-5"></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted mb-4 fs-6 lh-lg">Ut enim ad minim veniam quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                            <div class="text-end">
+                                <span class="fs-2 fw-bold text-primary">$16</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden menu-card">
+                        <img src="assets/starter-5.webp" class="card-img-top" alt="Salmon Ceviche"
+                            style="height: 250px; object-fit: cover;">
+                        <div class="card-body p-4 p-lg-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="card-title font-serif fw-bold mb-0">Salmon Ceviche</h4>
+                                <div class="icon-circle bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 36px; height: 36px;">
+                                    <i class="bi bi-check-circle fs-5"></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted mb-4 fs-6 lh-lg">Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla</p>
+                            <div class="text-end">
+                                <span class="fs-2 fw-bold text-primary">$22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden menu-card">
+                        <img src="assets/starter-7.webp" class="card-img-top" alt="Beef Tartare"
+                            style="height: 250px; object-fit: cover;">
+                        <div class="card-body p-4 p-lg-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="card-title font-serif fw-bold mb-0">Beef Tartare</h4>
+                                <div class="icon-circle bg-warning bg-opacity-10 text-warning rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 36px; height: 36px;">
+                                    <i class="bi bi-star-fill fs-5"></i>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted mb-4 fs-6 lh-lg">Excepteur sint occaecat cupidatat non
+                                proident sunt in culpa qui officia deserunt mollit anim</p>
+                            <div class="text-end">
+                                <span class="fs-2 fw-bold text-primary">$28</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Download Button -->
+            <div class="text-center mt-5 mb-3">
+                <a href="#"
+                    class="btn btn-primary rounded-pill px-4 py-3 fw-bold shadow-sm d-inline-flex align-items-center gap-2 btn-lift">
+                    <i class="bi bi-download fs-5"></i>
+                    Download Full Menu (PDF)
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5" style="background-color: var(--bg-color);">
+        <div class="container pt-5 pb-5">
+            <div class="text-center mb-5 pb-3">
+                <h2 class="font-serif fw-bold mb-3" style="font-size: 2.8rem; color: #2b231d;">Testimonials</h2>
+                <div class="d-flex justify-content-center mb-4">
+                    <div style="width: 50px; height: 3px; background-color: var(--primary-color);"></div>
+                </div>
+                <p class="text-muted fs-6">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                    velit</p>
+            </div>
+
+            <div class="row g-4 mb-3">
+                <!-- Testimonial 1 -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 p-4 p-lg-5 testimonial-card">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/person-f-5.webp" alt="Sophia Martinez" class="rounded-4 me-4"
+                                style="width: 80px; height: 80px; object-fit: cover;">
+                            <div <h4 class="font-serif fw-bold mb-1 card-name">Sophia Martinez</h4>
+                                <p class="mb-2 fs-6 card-role">Creative Director</p>
+                                <i class="bi bi-building fs-5 card-icon"></i>
+                            </div>
+                        </div>
+                        <i class="bi bi-chat-quote-fill fs-3 mb-3 d-block card-quote-icon"></i>
+                        <p class="card-text lh-lg mb-0 card-content">Leveraging cutting-edge design principles to create
+                            immersive brand experiences that resonate with modern audiences.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 (Static Orange) -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-lg rounded-4 h-100 p-4 p-lg-5 bg-primary text-white">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/person-m-5.webp" alt="Alexander Wright" class="rounded-4 me-4"
+                                style="width: 80px; height: 80px; object-fit: cover;">
+                            <div>
+                                <h4 class="font-serif fw-bold mb-1 text-white">Alexander Wright</h4>
+                                <p class="mb-2 fs-6 text-white-50">CEO & Founder</p>
+                                <i class="bi bi-building text-white fs-5"></i>
+                            </div>
+                        </div>
+                        <i class="bi bi-chat-quote-fill text-white fs-3 mb-3 d-block"></i>
+                        <p class="card-text lh-lg mb-0">Revolutionary solutions have transformed our business landscape,
+                            driving unprecedented growth and market leadership position.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 p-4 p-lg-5 testimonial-card">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/person-f-6.webp" alt="Isabella Kim" class="rounded-4 me-4"
+                                style="width: 80px; height: 80px; object-fit: cover;">
+                            <div>
+                                <h4 class="font-serif fw-bold mb-1 card-name">Isabella Kim</h4>
+                                <p class="mb-2 fs-6 card-role">Product Strategist</p>
+                                <i class="bi bi-building fs-5 card-icon"></i>
+                            </div>
+                        </div>
+                        <i class="bi bi-chat-quote-fill fs-3 mb-3 d-block card-quote-icon"></i>
+                        <p class="card-text lh-lg mb-0 card-content">Strategic implementation of innovative technologies
+                            has elevated our product development and market penetration.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 p-4 p-lg-5 testimonial-card">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/person-m-6.webp" alt="James Cooper" class="rounded-4 me-4"
+                                style="width: 80px; height: 80px; object-fit: cover;">
+                            <div>
+                                <h4 class="font-serif fw-bold mb-1 card-name">James Cooper</h4>
+                                <p class="mb-2 fs-6 card-role">Tech Lead</p>
+                                <i class="bi bi-building fs-5 card-icon"></i>
+                            </div>
+                        </div>
+                        <i class="bi bi-chat-quote-fill fs-3 mb-3 d-block card-quote-icon"></i>
+                        <p class="card-text lh-lg mb-0 card-content">Exceptional technical expertise and innovative
+                            solutions have streamlined our development processes significantly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section class="chefs-section py-5 my-5">
+        <div class="container pt-3">
+            <div class="text-center mb-5 pb-3">
+                <h2 class="font-serif fw-bold mb-3" style="font-size: 2.8rem; color: #2b231d;">Chefs</h2>
+                <div class="d-flex justify-content-center mb-4">
+                    <div style="width: 50px; height: 3px; background-color: var(--primary-color);"></div>
+                </div>
+                <p class="text-muted fs-6">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                    velit</p>
+            </div>
+
+            <div class="row align-items-center g-5">
+                <!-- Left Content -->
+                <div class="col-lg-5 pe-lg-5">
+                    <span
+                        class="badge bg-primary px-4 py-2 rounded-pill fs-6 fw-bold mb-4 d-inline-flex align-items-center gap-2"
+                        style="letter-spacing: 1px;"><i class="bi bi-award"></i> EXECUTIVE CHEF</span>
+                    <h2 class="font-serif fw-bold mb-3" style="font-size: 3.5rem; color: #2b231d;">Eliot Johnson</h2>
+
+                    <div class="d-flex align-items-baseline gap-3 mb-4 pb-2">
+                        <span class="text-primary fw-bold" style="font-size: 3.2rem;">15+</span>
+                        <span class="fw-bold fs-6 text-dark" style="letter-spacing: 1px;">YEARS OF EXCELLENCE</span>
+                    </div>
+
+                    <p class="text-muted lh-lg mb-5 pb-2">
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Mauris
+                        viverra veniam sit amet lacus cursus, vel blandit libero tempus. Nulla facilisi morbi tempus
+                        iaculis urna id volutpat lacus laoreet non curabitur gravida.
+                    </p>
+
+                    <!-- Awards List -->
+                    <div class="d-flex flex-column gap-3 mt-4">
+                        <div class="award-bracket d-flex align-items-center gap-3">
+                            <i class="bi bi-trophy-fill text-primary fs-5"></i>
+                            <span class="fw-bold text-dark fs-6">Culinary Excellence Award 2023</span>
+                        </div>
+                        <div class="award-bracket d-flex align-items-center gap-3">
+                            <i class="bi bi-star-fill text-primary fs-5"></i>
+                            <span class="fw-bold text-dark fs-6">Michelin Featured Restaurant</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-7 position-relative mt-5 mt-lg-0">
+                    <div class="position-relative z-1">
+                        <img src="assets/chef-8.webp" alt="Eliot Johnson" class="img-fluid rounded-4 shadow-lg w-100"
+                            style="height: 600px; object-fit: cover;">
+
+                        <!-- Signature Box -->
+                        <div
+                            class="position-absolute bottom-0 end-0 bg-white py-2 px-4 shadow-lg rounded-3 m-4 m-md-5 d-flex align-items-center">
+                            <span class="signature-text pt-2">Eliot Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Background Decor Shape -->
+                    <div class="position-absolute top-0 end-0 bg-primary opacity-10"
+                        style="width: 150px; height: 150px; transform: translate(20px, -20px); z-index: 0;"></div>
+                </div>
+            </div>
+
+            <!-- Team Grid -->
+            <div class="row g-4 mt-5 pt-4">
+                <!-- Team Member 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 text-center team-card overflow-hidden">
+                        <img src="assets/chef-5.webp" class="card-img-top rounded-0" alt="Elena Vasquez"
+                            style="height: 280px; object-fit: cover;">
+                        <div class="card-body p-4 bg-white">
+                            <h4 class="font-serif fw-bold mb-2 text-dark">Elena Vasquez</h4>
+                            <p class="text-primary fw-bold mb-3" style="font-size: 0.85rem; letter-spacing: 1px;">HEAD
+                                PASTRY CHEF</p>
+                            <p class="text-muted fs-6 mb-0 lh-lg">Sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 text-center team-card overflow-hidden">
+                        <img src="assets/chef-9.webp" class="card-img-top rounded-0" alt="David Thompson"
+                            style="height: 280px; object-fit: cover;">
+                        <div class="card-body p-4 bg-white">
+                            <h4 class="font-serif fw-bold mb-2 text-dark">David Thompson</h4>
+                            <p class="text-primary fw-bold mb-3" style="font-size: 0.85rem; letter-spacing: 1px;">SOUS
+                                CHEF</p>
+                            <p class="text-muted fs-6 mb-0 lh-lg">Ut enim ad minim veniam quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 text-center team-card overflow-hidden">
+                        <img src="assets/chef-2.webp" class="card-img-top rounded-0" alt="Maria Santos"
+                            style="height: 280px; object-fit: cover;">
+                        <div class="card-body p-4 bg-white">
+                            <h4 class="font-serif fw-bold mb-2 text-dark">Maria Santos</h4>
+                            <p class="text-primary fw-bold mb-3" style="font-size: 0.85rem; letter-spacing: 1px;">
+                                KITCHEN MANAGER</p>
+                            <p class="text-muted fs-6 mb-0 lh-lg">Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 text-center team-card overflow-hidden">
+                        <img src="assets/chef-4.webp" class="card-img-top rounded-0" alt="Roberto Kim"
+                            style="height: 280px; object-fit: cover;">
+                        <div class="card-body p-4 bg-white">
+                            <h4 class="font-serif fw-bold mb-2 text-dark">Roberto Kim</h4>
+                            <p class="text-primary fw-bold mb-3" style="font-size: 0.85rem; letter-spacing: 1px;">WINE
+                                SOMMELIER</p>
+                            <p class="text-muted fs-6 mb-0 lh-lg">Excepteur sint occaecat cupidatat non proident sunt in
+                                culpa qui officia deserunt mollit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation-section py-5 bg-white">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Left Column (Form) -->
+                <div class="col-lg-6">
+                    <div class="pe-lg-4">
+                        <p class="text-primary fw-bold mb-2 text-uppercase"
+                            style="letter-spacing: 2px; font-size: 0.9rem;">Make a Reservation</p>
+                        <h2 class="font-serif fw-bold mb-3" style="font-size: 3rem; color: #2b231d;">Reserve Your Table
+                            Today</h2>
+                        <p class="text-muted lh-lg mb-5 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras eget eros vitae magna eleifend lacinia a eget nisl.</p>
+
+                        <form>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold text-dark" style="font-size: 0.9rem;">Full Name</label>
+                                <input type="text" class="form-control form-control-lg py-3 fs-6 shadow-none"
+                                    placeholder="Your Name" style="border-color: #eaeaea; border-radius: 6px;">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold text-dark" style="font-size: 0.9rem;">Phone
+                                    Number</label>
+                                <input type="tel" class="form-control form-control-lg py-3 fs-6 shadow-none"
+                                    placeholder="Your Phone" style="border-color: #eaeaea; border-radius: 6px;">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold text-dark" style="font-size: 0.9rem;">Email
+                                    Address</label>
+                                <input type="email" class="form-control form-control-lg py-3 fs-6 shadow-none"
+                                    placeholder="Your Email" style="border-color: #eaeaea; border-radius: 6px;">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold text-dark" style="font-size: 0.9rem;">Number of
+                                    People</label>
+                                <select class="form-select form-select-lg py-3 fs-6 text-muted shadow-none"
+                                    style="border-color: #eaeaea; border-radius: 6px;">
+                                    <option selected>Select guests</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5+ People</option>
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold text-dark" style="font-size: 0.9rem;">Reservation
+                                    Date</label>
+                                <input type="date" class="form-control form-control-lg py-3 fs-6 text-muted shadow-none"
+                                    style="border-color: #eaeaea; border-radius: 6px;">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold text-dark" style="font-size: 0.9rem;">Reservation
+                                    Time</label>
+                                <input type="time" class="form-control form-control-lg py-3 fs-6 text-muted shadow-none"
+                                    style="border-color: #eaeaea; border-radius: 6px;">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold text-dark" style="font-size: 0.9rem;">Special
+                                    Requests</label>
+                                <textarea class="form-control form-control-lg py-3 fs-6 shadow-none" rows="3"
+                                    placeholder="Allergies, special occasions, seating preferences"
+                                    style="border-color: #eaeaea; border-radius: 6px;"></textarea>
+                            </div>
+                            <button type="button"
+                                class="btn btn-primary btn-lg px-5 py-3 fw-bold btn-lift mt-3 fs-6 border-0"
+                                style="border-radius: 6px;">Confirm Reservation</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Right Column (Image + Info) -->
+                <div class="col-lg-6">
+                    <img src="assets/showcase-4.webp" class="img-fluid rounded-4 shadow-sm mb-5 w-100"
+                        style="height: 400px; object-fit: cover;" alt="Restaurant Interior">
+
+                    <h3 class="font-serif fw-bold mb-4 pb-2" style="font-size: 2.2rem; color: #2b231d;">Restaurant
+                        Information</h3>
+
+                    <div class="d-flex flex-column gap-4 mb-5">
+                        <!-- Info Item -->
+                        <div class="d-flex align-items-start gap-4">
+                            <div class="d-flex align-items-center justify-content-center flex-shrink-0"
+                                style="width: 55px; height: 55px; background-color: #fff0eb; border-radius: 14px;">
+                                <i class="bi bi-clock text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2 font-serif" style="font-size: 1.25rem;">Opening Hours
+                                </h5>
+                                <p class="text-muted mb-0 lh-lg">Mon - Fri: 11:00 AM - 11:00 PM<br>Sat - Sun: 10:00 AM -
+                                    12:00 AM</p>
+                            </div>
+                        </div>
+
+                        <!-- Info Item -->
+                        <div class="d-flex align-items-start gap-4">
+                            <div class="d-flex align-items-center justify-content-center flex-shrink-0"
+                                style="width: 55px; height: 55px; background-color: #fff0eb; border-radius: 14px;">
+                                <i class="bi bi-geo-alt text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2 font-serif" style="font-size: 1.25rem;">Our Location
+                                </h5>
+                                <p class="text-muted mb-0 lh-lg">5625 Riverside Avenue<br>Newport, RI 02840</p>
+                            </div>
+                        </div>
+
+                        <!-- Info Item -->
+                        <div class="d-flex align-items-start gap-4">
+                            <div class="d-flex align-items-center justify-content-center flex-shrink-0"
+                                style="width: 55px; height: 55px; background-color: #fff0eb; border-radius: 14px;">
+                                <i class="bi bi-telephone text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2 font-serif" style="font-size: 1.25rem;">Reservations
+                                </h5>
+                                <p class="text-muted mb-0 lh-lg">+1 (401) 555-8792</p>
+                            </div>
+                        </div>
+
+                        <!-- Info Item -->
+                        <div class="d-flex align-items-start gap-4">
+                            <div class="d-flex align-items-center justify-content-center flex-shrink-0"
+                                style="width: 55px; height: 55px; background-color: #fff0eb; border-radius: 14px;">
+                                <i class="bi bi-envelope text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2 font-serif" style="font-size: 1.25rem;">Email Us</h5>
+                                <p class="text-muted mb-0 lh-lg">reservations@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Call Box -->
+                    <h5 class="fw-bold text-dark mb-3 font-serif" style="font-size: 1.25rem;">Prefer to call?</h5>
+                    <a href="#"
+                        class="btn btn-lift fw-bold text-primary d-inline-flex align-items-center gap-2 px-4 py-3"
+                        style="background-color: #fff0eb; border-radius: 8px; text-decoration: none; border: none;">
+                        <i class="bi bi-telephone-fill"></i> Call for Reservations
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Section -->
+    <section class="visit-section py-5" style="background-color: var(--bg-color);">
+        <div class="container py-5">
+            <h2 class="font-serif fw-bold mb-2" style="font-size: 3rem; color: #2b231d;">Visit Our Establishment</h2>
+            <p class="text-muted fst-italic fs-5 mb-4">Located in the heart of Manhattan's culinary district</p>
+            <hr style="border-top: 1px solid var(--primary-color); opacity: 0.2; margin-bottom: 3.5rem;">
+
+            <div class="row g-5">
+                <!-- Left Column -->
+                <div class="col-lg-7">
+                    <!-- Map -->
+                    <div class="rounded-4 overflow-hidden shadow-sm mb-5 position-relative bg-light"
+                        style="height: 450px;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1839486561676!2d-73.98823908459367!3d40.75797864273574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1689617300000!5m2!1sen!2sus"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- Custom Map Pill -->
+                        <div
+                            class="position-absolute top-0 start-0 m-4 bg-white px-3 py-2 rounded-pill shadow-sm d-flex align-items-center gap-2 fw-bold text-dark">
+                            <i class="bi bi-geo-alt text-primary"></i> We're Here
+                        </div>
+                    </div>
+
+                    <h4 class="font-serif fw-bold text-dark mb-4">Transportation & Parking</h4>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card bg-white border-0 shadow-sm rounded-3 h-100 p-4"
+                                style="border: 1px solid rgba(0,0,0,0.05) !important;">
+                                <div class="d-flex gap-3">
+                                    <div class="text-primary flex-shrink-0">
+                                        <i class="bi bi-train-front fs-3"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold text-dark mb-1">Subway</h6>
+                                        <p class="text-muted small mb-0 lh-base">Union Square Station (4, 5, 6, L, N, Q,
+                                            R, W)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-white border-0 shadow-sm rounded-3 h-100 p-4"
+                                style="border: 1px solid rgba(0,0,0,0.05) !important;">
+                                <div class="d-flex gap-3">
+                                    <div class="text-primary flex-shrink-0">
+                                        <div class="border border-primary rounded p-1 d-flex align-items-center justify-content-center"
+                                            style="width: 32px; height: 32px;">
+                                            <span class="fw-bold">P</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold text-dark mb-1">Valet Parking</h6>
+                                        <p class="text-muted small mb-0 lh-base">Available daily from 5:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column gap-4">
+                        <!-- Address Card -->
+                        <div class="card bg-white border-0 shadow-sm rounded-3 text-center p-4 py-5"
+                            style="border: 1px solid rgba(0,0,0,0.05) !important;">
+                            <div class="mx-auto d-flex align-items-center justify-content-center mb-4"
+                                style="width: 60px; height: 60px; background-color: #fff0eb; border-radius: 50%;">
+                                <i class="bi bi-building text-primary fs-4"></i>
+                            </div>
+                            <h4 class="font-serif fw-bold text-dark mb-3">Address</h4>
+                            <p class="text-muted mb-0 lh-lg">847 Broadway Avenue<br>New York, NY 10003</p>
+                        </div>
+
+                        <!-- Reservations Card -->
+                        <div class="card bg-white border-0 shadow-sm rounded-3 text-center p-4 py-5"
+                            style="border: 1px solid rgba(0,0,0,0.05) !important;">
+                            <div class="mx-auto d-flex align-items-center justify-content-center mb-4"
+                                style="width: 60px; height: 60px; background-color: #fff0eb; border-radius: 50%;">
+                                <i class="bi bi-telephone text-primary fs-4"></i>
+                            </div>
+                            <h4 class="font-serif fw-bold text-dark mb-3">Reservations</h4>
+                            <p class="text-dark fw-bold mb-2 fs-5">+1 (555) 234-5678</p>
+                            <p class="text-muted small fst-italic mb-0">Recommended 24-48 hours advance booking</p>
+                        </div>
+
+                        <!-- Operating Hours Card -->
+                        <div class="card bg-white border-0 shadow-sm rounded-3 text-center p-4 py-5"
+                            style="border: 1px solid rgba(0,0,0,0.05) !important;">
+                            <div class="mx-auto d-flex align-items-center justify-content-center mb-4"
+                                style="width: 60px; height: 60px; background-color: #fff0eb; border-radius: 50%;">
+                                <i class="bi bi-clock text-primary fs-4"></i>
+                            </div>
+                            <h4 class="font-serif fw-bold text-dark mb-4 pb-2">Operating Hours</h4>
+
+                            <div class="text-start px-md-3">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <span class="text-dark fw-medium">Tuesday - Thursday</span>
+                                    <span class="text-primary fw-medium">5:00 PM - 10:00 PM</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-4">
+                                    <span class="text-dark fw-medium">Friday - Saturday</span>
+                                    <span class="text-primary fw-medium">5:00 PM - 11:00 PM</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-4">
+                                    <span class="text-dark fw-medium">Sunday</span>
+                                    <span class="text-primary fw-medium">4:00 PM - 9:00 PM</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-dark fw-medium">Monday</span>
+                                    <span class="text-muted fst-italic">Closed</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-flex flex-column gap-3 mt-2">
+                            <button
+                                class="btn btn-primary btn-lg w-100 py-3 fw-bold border-0 btn-lift rounded-3 fs-6">Book
+                                a Table</button>
+                            <button
+                                class="btn btn-outline-primary btn-lg w-100 py-3 fw-bold btn-lift rounded-3 bg-white fs-6">Get
+                                Directions</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Events Section -->
+    <section class="events-section py-5 bg-white">
+        <div class="container py-5">
+            <!-- Top Hero Event -->
+            <div class="row g-5 align-items-center mb-5 pb-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <h2 class="font-serif fw-bold mb-4" style="font-size: 3.5rem; color: #2b231d; line-height: 1.1;">
+                        Exceptional Events &<br>Private Dining</h2>
+                    <p class="text-muted lh-lg mb-5 fs-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis.</p>
+
+                    <div class="d-flex gap-5">
+                        <div>
+                            <h3 class="text-primary fw-bold mb-0" style="font-size: 2.5rem;">500+</h3>
+                            <p class="text-muted fw-bold text-uppercase"
+                                style="letter-spacing: 1px; font-size: 0.85rem;">Events Hosted</p>
+                        </div>
+                        <div>
+                            <h3 class="text-primary fw-bold mb-0" style="font-size: 2.5rem;">200</h3>
+                            <p class="text-muted fw-bold text-uppercase"
+                                style="letter-spacing: 1px; font-size: 0.85rem;">Max Capacity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="assets/event-2.webp" class="img-fluid rounded-4 shadow" alt="Private Dining"
+                            style="height: 400px; width: 100%; object-fit: cover;">
+                        <!-- Floating Card -->
+                        <div
+                            class="position-absolute bottom-0 start-0 bg-white rounded-3 shadow-lg p-3 m-4 d-flex align-items-center gap-3 px-4">
+                            <i class="bi bi-calendar-check text-primary fs-3"></i>
+                            <span class="fw-bold text-dark fs-5">Book Your Event Today</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Packages -->
+            <div class="text-center mb-5 pb-3">
+                <h2 class="font-serif fw-bold mb-3" style="font-size: 3rem; color: #2b231d;">Choose Your Perfect Package
+                </h2>
+                <p class="text-muted fs-5">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                    laboriosam</p>
+            </div>
+
+            <div class="row g-4 align-items-center justify-content-center px-lg-5">
+                <!-- Premium Package -->
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 p-5 text-center bg-white"
+                        style="border: 1px solid rgba(0,0,0,0.03) !important;">
+                        <div class="mx-auto bg-primary text-white d-flex align-items-center justify-content-center mb-4 shadow-sm"
+                            style="width: 80px; height: 80px; border-radius: 20px;">
+                            <i class="bi bi-gem fs-2"></i>
+                        </div>
+                        <h4 class="font-serif fw-bold text-dark mb-4" style="font-size: 1.6rem;">Premium Package</h4>
+                        <div class="mb-4 pb-2">
+                            <span class="text-primary fw-bold" style="font-size: 3.5rem;">$129</span>
+                            <span class="text-muted ms-1 fw-medium">per person</span>
+                        </div>
+
+                        <ul class="list-unstyled text-start mb-5 pb-2">
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">5-course gourmet menu</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Premium wine selection</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Dedicated event coordinator</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Custom table arrangements</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Professional photography</span>
+                            </li>
+                        </ul>
+
+                        <div class="py-2 px-4 rounded-pill fw-bold text-primary mx-auto d-inline-block"
+                            style="background-color: #fff0eb;">
+                            30-80 guests
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Standard Package (Middle) -->
+                <div class="col-lg-4 position-relative z-2">
+                    <div class="card shadow rounded-4 h-100 p-5 text-center bg-white position-relative"
+                        style="border: 2px solid var(--primary-color) !important; transform: scale(1.05);">
+                        <!-- Most Popular Badge -->
+                        <div class="position-absolute top-0 start-50 translate-middle bg-primary text-white px-4 py-2 rounded-pill fw-bold shadow-sm"
+                            style="font-size: 0.95rem;">
+                            Most Popular
+                        </div>
+
+                        <div class="mx-auto bg-primary text-white d-flex align-items-center justify-content-center mb-4 mt-2 shadow-sm"
+                            style="width: 80px; height: 80px; border-radius: 20px;">
+                            <i class="bi bi-star fs-2"></i>
+                        </div>
+                        <h4 class="font-serif fw-bold text-dark mb-4" style="font-size: 1.6rem;">Standard Package</h4>
+                        <div class="mb-4 pb-2">
+                            <span class="text-primary fw-bold" style="font-size: 3.5rem;">$89</span>
+                            <span class="text-muted ms-1 fw-medium">per person</span>
+                        </div>
+
+                        <ul class="list-unstyled text-start mb-5 pb-2">
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">3-course dinner menu</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Welcome cocktail hour</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Event planning assistance</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Audio/visual equipment</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Complimentary parking</span>
+                            </li>
+                        </ul>
+
+                        <div class="py-2 px-4 rounded-pill fw-bold text-primary mx-auto d-inline-block"
+                            style="background-color: #fff0eb;">
+                            20-120 guests
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Essentials Package -->
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm rounded-4 h-100 p-5 text-center bg-white"
+                        style="border: 1px solid rgba(0,0,0,0.03) !important;">
+                        <div class="mx-auto bg-primary text-white d-flex align-items-center justify-content-center mb-4 shadow-sm"
+                            style="width: 80px; height: 80px; border-radius: 20px;">
+                            <i class="bi bi-heart fs-2"></i>
+                        </div>
+                        <h4 class="font-serif fw-bold text-dark mb-4" style="font-size: 1.6rem;">Essentials Package</h4>
+                        <div class="mb-4 pb-2">
+                            <span class="text-primary fw-bold" style="font-size: 3.5rem;">$59</span>
+                            <span class="text-muted ms-1 fw-medium">per person</span>
+                        </div>
+
+                        <ul class="list-unstyled text-start mb-5 pb-2">
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Buffet style dinner</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">House wine & beer</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Basic decorations</span>
+                            </li>
+                            <li class="mb-3 pb-3 border-bottom border-light-subtle d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">Standard seating</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle text-primary fs-5"></i>
+                                <span class="text-muted fw-medium">4-hour venue rental</span>
+                            </li>
+                        </ul>
+
+                        <div class="py-2 px-4 rounded-pill fw-bold text-primary mx-auto d-inline-block"
+                            style="background-color: #fff0eb;">
+                            15-60 guests
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <style>
+                .event-type-card img {
+                    transition: transform 0.6s ease;
+                }
+
+                .event-type-card:hover img {
+                    transform: scale(1.08);
+                }
+
+                .event-type-card .event-overlay {
+                    opacity: 0;
+                    transition: opacity 0.4s ease;
+                }
+
+                .event-type-card:hover .event-overlay {
+                    opacity: 1 !important;
+                }
+            </style>
+            <!-- Event Types Gallery -->
+            <div class="row g-4 mt-5 pt-4">
+                <!-- Corporate Events -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="position-relative rounded-4 overflow-hidden event-type-card h-100 shadow-sm"
+                        style="cursor: pointer;">
+                        <img src="assets/event-4.webp" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Corporate Events" style="min-height: 350px; object-fit: cover;">
+                        <div class="event-overlay position-absolute bottom-0 start-0 w-100 p-4 d-flex align-items-end justify-content-start"
+                            style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); height: 50%;">
+                            <h4 class="text-white fw-bold mb-0">Corporate Events</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Wedding Receptions -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="position-relative rounded-4 overflow-hidden event-type-card h-100 shadow-sm"
+                        style="cursor: pointer;">
+                        <img src="assets/event-6.webp" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Wedding Receptions" style="min-height: 350px; object-fit: cover;">
+                        <div class="event-overlay position-absolute bottom-0 start-0 w-100 p-4 d-flex align-items-end justify-content-start"
+                            style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); height: 50%;">
+                            <h4 class="text-white fw-bold mb-0">Wedding Receptions</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Birthday Celebrations -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="position-relative rounded-4 overflow-hidden event-type-card h-100 shadow-sm"
+                        style="cursor: pointer;">
+                        <img src="assets/event-9.webp" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Birthday Celebrations" style="min-height: 350px; object-fit: cover;">
+                        <div class="event-overlay position-absolute bottom-0 start-0 w-100 p-4 d-flex align-items-end justify-content-start"
+                            style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); height: 50%;">
+                            <h4 class="text-white fw-bold mb-0">Birthday Celebrations</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section py-5 my-5">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="text-center mb-5 pb-3">
+                <h2 class="font-serif fw-bold mb-3" style="font-size: 2.8rem; color: #2b231d;">Gallery</h2>
+                <div class="d-flex justify-content-center mb-4">
+                    <div style="width: 50px; height: 3px; background-color: var(--primary-color);"></div>
+                </div>
+                <p class="text-muted fs-6">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                    velit</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
+                <button
+                    class="btn btn-primary rounded-pill px-4 py-2 fw-medium border-0 shadow-sm filter-btn">All</button>
+                <button
+                    class="btn btn-outline-secondary text-dark rounded-pill px-4 py-2 fw-medium border-secondary-subtle bg-white filter-btn">Food</button>
+                <button
+                    class="btn btn-outline-secondary text-dark rounded-pill px-4 py-2 fw-medium border-secondary-subtle bg-white filter-btn">Interior</button>
+                <button
+                    class="btn btn-outline-secondary text-dark rounded-pill px-4 py-2 fw-medium border-secondary-subtle bg-white filter-btn">Events</button>
+                <button
+                    class="btn btn-outline-secondary text-dark rounded-pill px-4 py-2 fw-medium border-secondary-subtle bg-white filter-btn">Staff</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="row g-4">
+                <!-- Column 1 -->
+                <div class="col-lg-4 col-md-6 d-flex flex-column gap-4">
+                    <img src="assets/starter-3.webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                    <img src="assets/showcase-5.webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                    <img src="assets/main-4.webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                </div>
+                <!-- Column 2 -->
+                <div class="col-lg-4 col-md-6 d-flex flex-column gap-4">
+                    <img src="assets/chef-6.webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                    <img src="assets/event-4 (1).webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                    <img src="assets/showcase-2 (2).webp" alt="Gallery Image"
+                        class="img-fluid rounded-4 shadow-sm w-100" style="object-fit: cover;">
+                </div>
+                <!-- Column 3 -->
+                <div class="col-lg-4 col-md-6 d-flex flex-column gap-4">
+                    <img src="assets/chef-3 (1).webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                    <img src="assets/dessert-5.webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                    <img src="assets/event-8.webp" alt="Gallery Image" class="img-fluid rounded-4 shadow-sm w-100"
+                        style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plan Your Next Event Section -->
+    <section class="contact-section py-5 bg-white">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <!-- Left Column: Text Info -->
+                <div class="col-lg-5 pe-lg-5">
+                    <h2 class="font-serif fw-bold text-dark mb-4" style="font-size: 2.5rem;">Plan Your Next Event</h2>
+                    <p class="text-muted lh-lg mb-5" style="font-size: 1.05rem;">Nemo enim ipsam voluptatem quia
+                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                        voluptatem sequi nesciunt.</p>
+
+                    <div class="d-flex flex-column gap-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"
+                                style="width: 50px; height: 50px; background-color: #fff0eb;">
+                                <i class="bi bi-telephone text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted mb-0 small">Call Us</p>
+                                <h5 class="fw-bold text-dark mb-0">+1 (555) 123-4567</h5>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"
+                                style="width: 50px; height: 50px; background-color: #fff0eb;">
+                                <i class="bi bi-envelope text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted mb-0 small">Email</p>
+                                <h5 class="fw-bold text-dark mb-0">events@example.com</h5>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"
+                                style="width: 50px; height: 50px; background-color: #fff0eb;">
+                                <i class="bi bi-clock text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted mb-0 small">Planning Hours</p>
+                                <h5 class="fw-bold text-dark mb-0">Mon-Fri 9AM-6PM</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Contact Form -->
+                <div class="col-lg-7">
+                    <div class="card border border-light-subtle shadow-sm rounded-4 p-4 p-md-5 bg-white">
+                        <div class="text-center mb-5">
+                            <h3 class="font-serif fw-bold text-dark mb-0">Quick Event Inquiry</h3>
+                        </div>
+                        <form>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control form-control-lg py-3 fs-6 shadow-none"
+                                        placeholder="Your Name" style="border-color: #eaeaea; border-radius: 8px;">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control form-control-lg py-3 fs-6 shadow-none"
+                                        placeholder="Your Email" style="border-color: #eaeaea; border-radius: 8px;">
+                                </div>
+                            </div>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control form-control-lg py-3 fs-6 shadow-none"
+                                        placeholder="Phone Number" style="border-color: #eaeaea; border-radius: 8px;">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="date"
+                                        class="form-control form-control-lg py-3 fs-6 shadow-none text-muted"
+                                        style="border-color: #eaeaea; border-radius: 8px;">
+                                </div>
+                            </div>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <select class="form-select form-select-lg py-3 fs-6 shadow-none text-muted"
+                                        style="border-color: #eaeaea; border-radius: 8px;">
+                                        <option selected>Guest Count</option>
+                                        <option value="1">10-50</option>
+                                        <option value="2">50-100</option>
+                                        <option value="3">100+</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select form-select-lg py-3 fs-6 shadow-none text-muted"
+                                        style="border-color: #eaeaea; border-radius: 8px;">
+                                        <option selected>Event Type</option>
+                                        <option value="1">Wedding</option>
+                                        <option value="2">Corporate</option>
+                                        <option value="3">Birthday</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <textarea class="form-control form-control-lg py-3 fs-6 shadow-none" rows="4"
+                                    placeholder="Tell us about your event..."
+                                    style="border-color: #eaeaea; border-radius: 8px; resize: none;"></textarea>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button type="button"
+                                    class="btn btn-primary btn-lg w-100 py-3 fw-bold rounded-pill border-0 shadow-sm"
+                                    style="font-size: 1rem;">Send Inquiry</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-5 pb-4" style="background-color: #fffaf7;">
+        <div class="container pt-4">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4 pe-lg-5">
+                    <h3 class="font-serif fw-bold text-dark mb-4">Savora</h3>
+                    <p class="text-muted lh-lg mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                        posuere cubilia curae. Donec velit neque auctor sit amet aliquam vel ullamcorper sit amet
+                        ligula.</p>
+                    <h5 class="fw-bold text-dark mb-3">Stay Updated</h5>
+                    <div class="input-group shadow-sm rounded-pill overflow-hidden bg-white">
+                        <input type="email" class="form-control border-0 py-3 ps-4 shadow-none"
+                            placeholder="Enter your email" style="background: transparent;">
+                        <button class="btn btn-primary px-4 border-0" type="button"><i class="bi bi-send"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold text-dark mb-4 pb-2 position-relative">
+                        Company
+                        <span class="position-absolute bottom-0 start-0 bg-primary"
+                            style="width: 30px; height: 2px;"></span>
+                    </h5>
+                    <ul class="list-unstyled d-flex flex-column gap-3">
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2"
+                                    style="font-size: 0.8rem;"></i>About</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2"
+                                    style="font-size: 0.8rem;"></i>Careers</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2"
+                                    style="font-size: 0.8rem;"></i>Press</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2"
+                                    style="font-size: 0.8rem;"></i>Blog</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2"
+                                    style="font-size: 0.8rem;"></i>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold text-dark mb-4 pb-2 position-relative">
+                        Solutions
+                        <span class="position-absolute bottom-0 start-0 bg-primary"
+                            style="width: 30px; height: 2px;"></span>
+                    </h5>
+                    <ul class="list-unstyled d-flex flex-column gap-3">
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2" style="font-size: 0.8rem;"></i>Digital
+                                Strategy</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2" style="font-size: 0.8rem;"></i>Cloud
+                                Computing</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2" style="font-size: 0.8rem;"></i>Data
+                                Analytics</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2" style="font-size: 0.8rem;"></i>AI
+                                Solutions</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none custom-link"><i
+                                    class="bi bi-chevron-right text-primary me-2"
+                                    style="font-size: 0.8rem;"></i>Cybersecurity</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold text-dark mb-4 pb-2 position-relative">
+                        Get in Touch
+                        <span class="position-absolute bottom-0 start-0 bg-primary"
+                            style="width: 30px; height: 2px;"></span>
+                    </h5>
+                    <div class="d-flex flex-column gap-3 mb-4">
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 mt-1"
+                                style="width: 36px; height: 36px; background-color: #fff0eb;">
+                                <i class="bi bi-geo-alt text-primary fs-6"></i>
+                            </div>
+                            <p class="text-muted mb-0 small lh-lg">2847 Maple Avenue<br>Los Angeles, CA 90210<br>United
+                                States</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                                style="width: 36px; height: 36px; background-color: #fff0eb;">
+                                <i class="bi bi-telephone text-primary fs-6"></i>
+                            </div>
+                            <p class="text-muted mb-0 small">+1 (555) 987-6543</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                                style="width: 36px; height: 36px; background-color: #fff0eb;">
+                                <i class="bi bi-envelope text-primary fs-6"></i>
+                            </div>
+                            <p class="text-muted mb-0 small">contact@example.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <a href="#"
+                            class="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px; background-color: #f1f1f1; border: none;"><i
+                                class="bi bi-facebook text-secondary"></i></a>
+                        <a href="#"
+                            class="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px; background-color: #f1f1f1; border: none;"><i
+                                class="bi bi-twitter-x text-secondary"></i></a>
+                        <a href="#"
+                            class="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px; background-color: #f1f1f1; border: none;"><i
+                                class="bi bi-linkedin text-secondary"></i></a>
+                        <a href="#"
+                            class="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px; background-color: #f1f1f1; border: none;"><i
+                                class="bi bi-youtube text-secondary"></i></a>
+                        <a href="#"
+                            class="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px; background-color: #f1f1f1; border: none;"><i
+                                class="bi bi-github text-secondary"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-secondary opacity-10">
+
+            <div class="row pt-3 align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted mb-0 small">&copy; 2026 Savora. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#" class="text-muted text-decoration-none small me-3 custom-link">Privacy Policy</a>
+                    <a href="#" class="text-muted text-decoration-none small custom-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#"
+        class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-4 shadow-lg d-flex align-items-center justify-content-center"
+        style="width: 50px; height: 50px; z-index: 999;">
+        <i class="bi bi-arrow-up fs-4"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
